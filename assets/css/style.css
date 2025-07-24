@@ -1,12 +1,148 @@
 /* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 400px;
+  height: 100vh;
+  background-image: url("../img/sfondo.png");
+  background-size: 400px;
+  margin: auto;
+  padding: 17px;
+  font-family: "Poppins", sans-serif;
+}
 /* HEADER */
+header {
+  background-color: #008eb0;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.2rem;
+  box-shadow: -24px 28px 10px -21px #706d6a;
+}
 
+.logo {
+  padding-bottom: 20px;
+}
+
+header p {
+  color: white;
+  padding-bottom: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav li {
+  padding-bottom: 4px;
+}
 /* MAIN */
+main {
+  margin-top: 20px;
+  padding: 20px 10px 0 10px;
+  background-color: white;
+  font-size: 1.2em;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  box-shadow: -24px 28px 10px -21px #706d6a;
+}
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+/* ELEMENTI NEL MAIN  */
+
+main h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main #credit {
+  color: #a1a099;
+  padding-bottom: 20px;
+}
+
+main strong {
+  font-weight: bold;
+  color: #aa2072;
+}
+
+main ul {
+  list-style-type: disc;
+}
+
+main ol {
+  list-style-type: decimal;
+}
+
+main ol,
+ul {
+  padding-inline: 24px;
+  line-height: 1.5;
+}
+
+main code {
+  background-color: #e8dfe1;
+  border: solid 0.5px #aaa8a9;
+  border-radius: 7px;
+}
 
 /* TABELLE */
+
+main caption {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+main table {
+  border-bottom: 2px solid #3366cc;
+  margin-bottom: 20px;
+}
+
+main th {
+  background-color: #346ac6;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  padding-block: 19px;
+}
+
+main td {
+  padding-block: 10px;
+  text-align: center;
+}
+
+main tr:nth-child(even) {
+  background-color: #f2f2f2; /* Colore per le righe pari */
+}
+
+main tr:nth-child(odd) {
+  background-color: #ffffff; /* Colore per le righe dispari */
+}
+
+figure {
+  text-align: center;
+}
+
+figure iframe {
+  border-radius: 30px;
+  width: 100%;
+}
+
+#novita {
+  background-color: #dfe5e6;
+  padding-block: 20px;
+}
+
+#novita h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
 
 /* FORM */
 
