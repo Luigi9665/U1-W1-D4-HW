@@ -149,3 +149,8 @@ figure iframe {
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+
+footer {
+  margin-top: 20px;
+  background-color: #015566;
+}
